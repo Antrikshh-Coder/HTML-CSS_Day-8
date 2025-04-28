@@ -1,0 +1,192 @@
+
+body {
+    background-color: #1688c0;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: lightblue;
+    border: 2px solid black; 
+    margin:20px;
+    margin-top: 20px;
+
+}
+form {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"], input[type="email"], button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #13d116;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+.f1 input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.f1 input[type="password"]:focus {
+    border-color: #7f4832;
+}
+
+.f1 input[type="password"]::placeholder {
+    color: #aaa;
+}
+
+.f1 button {
+    background-color: #af684c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.f3 {
+    background-color: #2fbd63;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.f3 input[type="checkbox"], input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin: 10px;
+    margin-top: 10px;
+  }
+  
+.f3 label {
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+   
+    
+  }
+  
+.f3 label:hover {
+    color: #4CAF50;
+  }
+
+.f5 button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+.f5 button[type="reset"] {
+    background-color: #f44336;
+  }
+  
+.f5 button:hover {
+    opacity: 0.8;
+  }
+  
+.f5 button[type="reset"]:hover {
+    opacity: 0.8;
+  }
+
+.f6  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+.f6  textarea:focus {
+    border-color: #4CAF50;
+  }
+  
+.f7  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+.f7  input[type="text"], input[type="email"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.f8  input:valid {
+    border-color: green;
+  }
+  
+.f8  input:invalid {
+    border-color: red;
+  }
+  
+.f8  input:invalid:focus {
+    box-shadow: 0 0 5px red;
+  }
+  
+  
+  
+
+.box {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 141, 171);
+    border: 2px solid black; 
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  select:hover {
+    border-color: #4CAF50;
+  }
+  
+  option {
+    padding: 10px;
+  }
